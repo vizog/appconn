@@ -33,4 +33,6 @@ OutOfMemoryError.
 and the app can be deployed to a public cloud with mostly configuration changes.
 - The logic implemented to decide which IPs are "bad" is my best effort of what the exercise is asking for. 
 While the app is passing all runs of the test client (with millions of events), it is only implemented to mark the 
-*largest* group of IPs that belong to a common /28 network as "good" and the rest of the IPs as "bad".   
+*largest* group of IPs that belong to a common /28 network as "good" and the rest of the IPs as "bad".  
+  
+TODO: Add more documentation.
